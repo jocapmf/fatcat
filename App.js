@@ -19,7 +19,7 @@ import {useInternetStatus} from './src/containers/utils/internet';
 const Stack = createNativeStackNavigator();
 const App = () => {
   const internet = useInternetStatus();
-
+console.log(internet)
   return (
     <NavigationContainer>
       {internet === false ? (

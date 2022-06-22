@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jovan/Documents/Projects/fatcat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/jovan/Documents/fatcat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/jovan/.gradle/caches/transforms-3/f1d633fd64daa2015a40f00739216189/transformed/cardview-1.0.0/res/values/values.xml",
@@ -114,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jovan/Documents/Projects/fatcat/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/Users/jovan/Documents/fatcat/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -164,23 +164,6 @@
                         "startOffsets": "40173",
                         "endColumns": "53",
                         "endOffsets": "40222"
-                    }
-                },
-                {
-                    "source": "/Users/jovan/Documents/Projects/fatcat/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "43",
-                        "endOffsets": "55"
-                    },
-                    "to": {
-                        "startLines": "690",
-                        "startColumns": "4",
-                        "startOffsets": "44046",
-                        "endColumns": "43",
-                        "endOffsets": "44085"
                     }
                 },
                 {
@@ -275,7 +258,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jovan/Documents/Projects/fatcat/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/jovan/Documents/fatcat/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -310,6 +293,23 @@
                         "endLines": "24,4427,5702,5791",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1334,297377,367630,372841"
+                    }
+                },
+                {
+                    "source": "/Users/jovan/Documents/fatcat/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "690",
+                        "startColumns": "4",
+                        "startOffsets": "44046",
+                        "endColumns": "43",
+                        "endOffsets": "44085"
                     }
                 },
                 {

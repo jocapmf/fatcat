@@ -13,6 +13,7 @@ export const rocketListItemStyles = () =>
     name: {
       flex: 1,
       marginLeft: 15,
+      color: '#000'
     },
     image: {
       width: 100,

@@ -7,10 +7,10 @@ const CrewMember = props => {
   useEffect(() => {
     checkForNeededPermisions(setCanAccess);
   }, []);
-
   const {navigation, route} = props;
   const {params} = route;
   const {image, name, agency, status} = params;
+  
   return (
     <SafeAreaView style={{backgroundColor: '#ccc'}}>
       <ScrollView>
@@ -20,6 +20,7 @@ const CrewMember = props => {
               source={{uri: image}}
               style={{flex: 1, height: 400}}
               resizeMode="cover"
+              resizeMethod='resize'
               onError={({nativeEvent: {error}}) => console.log(error)}
             />
             <Text>{name}</Text>

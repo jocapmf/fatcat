@@ -9,7 +9,7 @@ const RocketListItemDetails = (detailName, detailInfo, detailInfoUnit) => {
   const rocketStyle = rocketListItemStyles();
   return (
     <View style={rocketStyle.row} key={Math.random()}>
-      <Text>{`${detailName} :`}</Text>
+      <Text style={{color: '#000'}}>{`${detailName} :`}</Text>
       <Text style={rocketStyle.name}>
         {detailInfo + printDetailInfoUnit(detailInfoUnit)}
       </Text>

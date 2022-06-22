@@ -21,7 +21,6 @@ const RocketListItem = props => {
     <View style={[rocketStyle.row, {height: 120}]}>
       <Image style={rocketStyle.image} source={{uri: flickr_images[0]}} />
       <View style={{marginLeft: 15}}>{printDetailRow()}</View>
-      <Text style={rocketStyle.name}>{name}</Text>
     </View>
   );
 };

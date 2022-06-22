@@ -26,6 +26,7 @@ const CrewMembers = () => {
   };
   useEffect(() => {
     getDataUsingAsyncAwaitGetCall();
+    console.log("test")
   }, []);
   const printListOfCrew = () => {
     if (!apiError) {
@@ -40,6 +41,7 @@ const CrewMembers = () => {
       );
     }
   };
+  console.log("test")
   return (
     <ScrollView
       style={{padding: 10}}
