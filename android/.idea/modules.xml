@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fatcat.iml" filepath="$PROJECT_DIR$/.idea/modules/fatcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fatcat.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fatcat.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-969508698/fatcat.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-969508698/fatcat.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/310767185/fatcat.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/310767185/fatcat.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-25768023/fatcat.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-25768023/fatcat.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1947639227/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/1947639227/react-native-gradle-plugin.iml" />
+    </modules>
+  </component>
+</project>
