@@ -10,14 +10,14 @@ const CrewMember = props => {
   const {navigation, route} = props;
   const {params} = route;
   const {image, name, agency, status} = params;
-  
+  const lImg = image.replace(".png","l.png") //Imgur, use large image
   return (
     <SafeAreaView style={{backgroundColor: '#ccc'}}>
       <ScrollView>
         {canAccess ? (
           <>
             <Image
-              source={{uri: image}}
+              source={{uri: lImg}}
               style={{flex: 1, height: 400}}
               resizeMode="cover"
               resizeMethod='resize'
